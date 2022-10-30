@@ -1,0 +1,73 @@
+body {
+    background-color: #DAC8B3;
+    min-height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#heart {
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p:nth-child(1) {
+    margin: 60px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    font-size: 20px;
+    color: black;
+    background-color: #E6B89E;
+
+    
+}
+
+img {
+    margin-top: 20px;
+}
+
+main #heart p {
+    color: #fff;
+    font-size: 40px;
+
+    position: absolute;
+    z-index: 0;
+
+    margin: 0 auto 30px auto;
+}
+
+footer {
+    background-color: #E6B89E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #567072;
+}
+
+.bgRedHeart {
+    background-image: url("../src/img/bgRedHeart.png");
+}
+.bgBlueHeart {
+    background-image: url("../src/img/bgBlueHeart.png");
+}
+.bgPurpleHeart {
+    background-image: url("../src/img/bgPurpleHeart.png");
+}
+.bgYellowHeart {
+    background-image: url("../src/img/bgYellowHeart.png");
+}
